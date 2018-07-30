@@ -9,13 +9,6 @@ def conference_badges
     array.badge_maker
   end
     
-  def assign_rooms(array) 
-    room_num = 1
-    room_assignments = []
-    array.each do |name|
-      puts "Hello, #{name}! You'll be assigned to room #{room_num}!"
-      
-      room_num += 1 
-  end
+  
 end
 
